@@ -20,3 +20,71 @@ div {
 .navbar > div {
     flex-grow: 1;
 }
+
+.footer-wrapper{
+    display: grid;
+    grid-auto-rows: minmax(15px, auto);
+    grid-template-columns: 30% 40% 30%;
+    grid-gap: 1em;
+}
+
+.magazine-topics-title {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.magazine-topics-items {
+  grid-column: 1/4;
+  margin: 0 10%;
+}
+
+.magazine-topics-items > ul {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-position: inside;
+  text-align: left;
+  justify-content: center;
+}
+.magazine-topics-items > ul > li {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.credits-content {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.links-site {
+  grid-column: 2/3;
+}
+
+.links-site > ul {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-position: inside;
+  text-align: left;
+  justify-content: center;
+}
+.links-site > ul > li {
+  width: auto;
+  height: 45px;
+  margin: 0px 10px;
+  
+}
+
+.image-section {
+  grid-row: 3/5;
+  margin: 10% 30% 10%;
+}
+
+.image-section-2 {
+  grid-column: 3/4;
+  grid-row: 3/5;
+  margin: 10% 30% 10%;
+}
