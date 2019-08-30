@@ -26,6 +26,13 @@ h2 {
     flex-grow: 1;
 }
 
+.wrapper-curated-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin: 0 5% 10px;
+}
+
 .wrapper-newsletter-section{
   display: grid;
   grid-auto-rows: minmax(80px, auto);
