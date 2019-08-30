@@ -21,6 +21,12 @@ div {
     flex-grow: 1;
 }
 
+.see-all-articles {
+  width: 10%;
+  margin: 10px auto;
+  text-align: center;
+}
+/*FOOTER SECTION*/
 .footer-wrapper{
     display: grid;
     grid-auto-rows: minmax(15px, auto);
