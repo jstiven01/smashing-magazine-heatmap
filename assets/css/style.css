@@ -8,6 +8,11 @@ div {
     border: 1px solid red;
 }
 
+h2 {
+  margin: 0;
+  width: 100;
+}
+
 .navbar {
     display: flex;
     padding: 1em 0;
@@ -19,6 +24,45 @@ div {
 
 .navbar > div {
     flex-grow: 1;
+}
+
+.wrapper-newsletter-section{
+  display: grid;
+  grid-auto-rows: minmax(80px, auto);
+  grid-gap: 1em;
+  margin: 0 10%;
+}
+
+.newsletter-title {
+  width: 380px;
+  text-align: center;
+  margin: 15px auto 0;
+}
+
+.newsletter-content {
+  width: 540px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletter-image-section {
+  grid-row: 3/8;
+  width: 540px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletter-button-subscribe {
+  grid-row: 8/9;
+  width: 540px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletter-tips{
+  width: 380px;
+  text-align: center;
+  margin: 0 auto 15px;
 }
 
 .see-all-articles {
