@@ -6,9 +6,10 @@ html, body {
 
 div {
     border: 1px solid red;
+    border-radius: 5px;
 }
 
-h2 {
+h2, h4 {
   margin: 0;
   width: 100;
 }
@@ -24,6 +25,39 @@ h2 {
 
 .navbar > div {
     flex-grow: 1;
+}
+
+.wrapper-book-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(50px, auto);
+  margin: 0 5% 10px;
+}
+
+.book-section-title {
+  width: 300px;
+}
+
+.book-title {
+  grid-row: 2/3;
+  width: 380px;
+}
+
+.description-book {
+  grid-row: 3/4;
+  width: 730px;
+}
+
+.button-table-contents {
+  grid-row: 4/5;
+  width: 300px;
+}
+
+.book-image {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  margin-right: 20px
 }
 
 .wrapper-curated-posts {
@@ -77,12 +111,12 @@ h2 {
   margin: 10px auto;
   text-align: center;
 }
-/*FOOTER SECTION*/
+
 .footer-wrapper{
-    display: grid;
-    grid-auto-rows: minmax(15px, auto);
-    grid-template-columns: 30% 40% 30%;
-    grid-gap: 1em;
+  display: grid;
+  grid-auto-rows: minmax(15px, auto);
+  grid-template-columns: 30% 40% 30%;
+  grid-gap: 1em;
 }
 
 .magazine-topics-title {
@@ -104,12 +138,14 @@ h2 {
   text-align: left;
   justify-content: center;
 }
+
 .magazine-topics-items > ul > li {
   padding: 5px;
   width: 100px;
   height: 100px;
   margin: 10px;
 }
+
 .credits-content {
   grid-column: 2/3;
   text-align: center;
@@ -128,6 +164,7 @@ h2 {
   text-align: left;
   justify-content: center;
 }
+
 .links-site > ul > li {
   width: auto;
   height: 45px;
