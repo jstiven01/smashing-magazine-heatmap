@@ -10,6 +10,11 @@ div {
   border-radius: 5px;
 }
 
+article {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
 p,
 h2,
 h4,
@@ -64,6 +69,14 @@ h1 {
 
 .latest-text-description {
   height: 340px;
+}
+
+.wrapper-latest-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(300px, auto);
+  margin: 10px 5% 10px;
 }
 
 .wrapper-book-section {
