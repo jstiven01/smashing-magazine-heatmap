@@ -1,4 +1,4 @@
-html, 
+html,
 body {
   min-height: 100%;
   box-sizing: border-box;
@@ -10,22 +10,30 @@ div {
   border-radius: 5px;
 }
 
-h2, 
+h2,
 h4 {
   margin: 0;
   width: 100;
 }
 
-.navbar {
-  display: flex;
-  padding: 1em 0;
-  position: relative;
-  min-height: 6.2375rem;
-  border: 1px solid red;
+.darker-gray {
+  background-color: #373539;
 }
 
-.navbar > div {
-  flex-grow: 1;
+.medium-gray {
+  background-color: #817F84;
+}
+
+.light-gray {
+  background-color: #D4D2D7;
+}
+
+.wrapper-navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(150px, auto);
+  margin: 10px 0 10px;
 }
 
 .wrapper-book-section {
