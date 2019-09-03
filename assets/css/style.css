@@ -10,22 +10,24 @@ div {
   border-radius: 5px;
 }
 
+p,
 h2,
-h4 {
+h4,
+h1 {
   margin: 0;
   width: 100;
 }
 
-.darker-gray {
+.dark-gray {
   background-color: #373539;
 }
 
 .medium-gray {
-  background-color: #817F84;
+  background-color: #817f84;
 }
 
 .light-gray {
-  background-color: #D4D2D7;
+  background-color: #d4d2d7;
 }
 
 .wrapper-navbar {
@@ -34,6 +36,34 @@ h4 {
   grid-gap: 1em;
   grid-auto-rows: minmax(150px, auto);
   margin: 10px 0 10px;
+}
+
+.latest-articles-title {
+  width: 350px;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+.wrapper-latest-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(400px, auto);
+  margin: 0 5% 10px;
+}
+
+.wrapper-photo-title {
+  display: flex;
+}
+
+.photo-profile {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.latest-text-description {
+  height: 340px;
 }
 
 .wrapper-book-section {
