@@ -5,7 +5,7 @@ The job is to create a grayscale heat map of the website that indicates which el
 
 ## Live Version:
 
-You can check the live version [here](https://raw.githack.com/jstiven01/smashing-magazine-heatmap/grayscale-heatmap/index.html)
+You can check the live version [here](https://jstiven01.github.io/smashing-magazine-heatmap/)
 
 ## Source Page:
 
