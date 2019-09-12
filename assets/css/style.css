@@ -244,6 +244,10 @@ h1 {
   box-sizing: border-box;
 }
 
+.new-tv-section {
+  grid-template-columns: 3fr 3fr 4fr;
+}
+
 .ad-members {
   display: flex;
   flex-direction: column;
