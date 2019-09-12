@@ -18,3 +18,6 @@ HTML5 CSS3, using Grid CSS.
 ## Author
 Luis Preza https://github.com/men32z <br>
 Johan Tinjaca https://github.com/jstiven01
+
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jstiven01/smashing-magazine-heatmap/grayscale-heatmap/assets/images/screenshot.png)
