@@ -280,3 +280,26 @@ h1 {
   width: 600px;
   height: 400px;
 }
+
+.community-links {
+  display: flex;
+  flex-direction: column;
+  margin:30px 5%;
+}
+
+.person-week {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.additional-community {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+
+.a-c-child {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
