@@ -267,7 +267,7 @@ h1 {
 .coming-up {
   display: flex;
   flex-direction: column;
-  margin:30px 20%;
+  margin: 30px 20%;
   align-items: center;
   text-align: center;
 }
@@ -284,7 +284,7 @@ h1 {
 .community-links {
   display: flex;
   flex-direction: column;
-  margin:30px 5%;
+  margin: 30px 5%;
 }
 
 .person-week {
