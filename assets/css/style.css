@@ -25,6 +25,7 @@ h1 {
 
 .dark-gray {
   background-color: #373539;
+  color: white;
 }
 
 .medium-gray {
@@ -232,4 +233,29 @@ h1 {
   grid-column: 3/4;
   grid-row: 3/5;
   margin: 10% 30% 10%;
+}
+
+.members-section {
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(400px, auto);
+  margin: 40px 5% 10px 5%;
+  box-sizing: border-box;
+}
+
+.ad-members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-ad {
+  width: 200px;
+  height: 200px;
+}
+
+.section-name {
+  position: absolute;
+  margin-top: -20px;
 }
